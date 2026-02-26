@@ -3,7 +3,7 @@ ReCo-Diff: Residual-Conditioned Deterministic Sampling for Cold Diffusion in Spa
 
 ## Requirements
 
-- Create a new virtual environment and install the required libraries using \requirements.txt`.`
+- Create a new virtual environment and install the required libraries using `\requirements.txt`.
   ```shell
   git clone https://github.com/choiyoungeunn/ReCo-Diff.git
   cd ReCo-Diff
