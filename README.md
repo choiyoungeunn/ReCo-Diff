@@ -53,7 +53,7 @@ python ./datasets/preprocess_aapm.py
 Organize the dataset directory as follows:
 
 ```text
-<aapm16>/
+<aapm16 data root>/
 ├── train_img/
 │   ├── L067_FD_1_1.CT.0001.0001.2015.12.22.18.09.40.840353.358074219.npy
 │   ├── L067_FD_1_1.CT.0001.0002.2015.12.22.18.09.40.840353.358074243.npy
