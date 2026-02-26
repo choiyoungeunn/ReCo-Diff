@@ -29,7 +29,7 @@ ReCo-Diff: Residual-Conditioned Deterministic Sampling for Cold Diffusion in Spa
 ## Dataset
 
 - Download the [AAPM dataset](https://aapm.app.box.com/s/eaw4jddb53keg1bptavvvd1sf4x3pe9h/folder/144226105715).
-- After downloading, run preprocessing with .
+- After downloading, run preprocessing with `./datasets/preprocess_aapm.py`.
 - Provide dataset paths directly in each script before running.
 
 ## Train (ReCo-Diff)
