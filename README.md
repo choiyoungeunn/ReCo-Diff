@@ -53,7 +53,7 @@ python ./datasets/preprocess_aapm.py
 
 Download a [checkpoint](https://drive.google.com/drive/folders/17G5z6vLXAuA5GYvGJTbSP1kEAVBPt6mh?usp=sharing) and use it for testing.
 
-### 📂 Checkpoint file
+### Checkpoint file
 
 ```
 ReCo-Diff ckpt/
@@ -76,7 +76,7 @@ bash recodiff_train.sh
 
 ## 🧪 Test (ReCo-Diff)
 
-### 🔹 Single checkpoint
+### Single checkpoint
 
 - Script: `recodiff_test.sh`
 - Set `res_dir`, `dataset_path`, and `net_checkpath_default` at the top of the file, then run:
@@ -85,7 +85,7 @@ bash recodiff_train.sh
 bash recodiff_test.sh
 ```
 
-### 🔹 All checkpoints in a directory
+### All checkpoints in a directory
 
 - Script: `recodiff_test_ALL_search.sh`
 - Set `ckpt_dir` at the top of the file, then run:
