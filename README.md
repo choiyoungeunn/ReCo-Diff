@@ -13,7 +13,7 @@ ReCo-Diff: Residual-Conditioned Deterministic Sampling for Cold Diffusion in Spa
   2. Due to some out-dated Pytorch function in torch-radon, you need to modify code by running
      ```shell
      cd torch-radon
-     patch -p1 < path/to/ReCo-Diff /torch-radon_fix/torch-radon_fix.patch
+     patch -p1 < path/to/ReCo-Diff/torch-radon_fix/torch-radon_fix.patch
      ```
   3. Install torch-radon by running
      ```shell
