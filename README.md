@@ -41,11 +41,27 @@ pip install -r ./requirements.txt
 - Download the [AAPM dataset](https://aapm.app.box.com/s/eaw4jddb53keg1bptavvvd1sf4x3pe9h/folder/144226105715).
 - After downloading, run preprocessing with `./datasets/preprocess_aapm.py`.
 - Provide dataset paths directly in each script before running.
+
 ```shell
 python ./datasets/preprocess_aapm.py
 ```
 
 - Provide dataset paths directly in each script before running.
+
+### Dataset Structure
+
+Organize the dataset directory as follows:
+
+```text
+<dataset_root>/
+├── train_img/
+│   ├── L067_FD_1_1.CT.0001.0001.2015.12.22.18.09.40.840353.358074219.npy
+│   ├── L067_FD_1_1.CT.0001.0002.2015.12.22.18.09.40.840353.358074243.npy
+│   └── ...
+└── test_img/
+    ├── L506_FD_1_1.CT.0002.0001.2015.12.22.20.19.52.894480.358589814.npy
+    ├── L506_FD_1_1.CT.0002.0002.2015.12.22.20.19.52.894480.358589838.npy
+    └── ...
 
 ---
 
@@ -53,7 +69,7 @@ python ./datasets/preprocess_aapm.py
 
 Download a [checkpoint](https://drive.google.com/drive/folders/17G5z6vLXAuA5GYvGJTbSP1kEAVBPt6mh?usp=sharing) and use it for testing.
 
-### Checkpoint file
+### Checkpoint Structure
 
 ```
 ReCo-Diff ckpt/
