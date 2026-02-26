@@ -15,7 +15,6 @@ conda activate recodiff
 pip install -r ./requirements.txt
 ```
 
-
 ### 🔧 Install torch-radon
 
 - torch-radon is required for simulating DRRs and geometry utils. Install torch-radon by:
