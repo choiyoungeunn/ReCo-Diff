@@ -77,7 +77,7 @@ ReCo-Diff ckpt/
 
 ---
 
-## 🚀 Train (ReCo-Diff)
+## 🚀 Train 
 
 - Script: `recodiff_train.sh`
 - Set `res_dir` and `dataset_path` at the top of the file, then run:
@@ -88,7 +88,7 @@ bash recodiff_train.sh
 
 ---
 
-## 🧪 Test (ReCo-Diff)
+## 🧪 Test 
 
 ### Single checkpoint
 
