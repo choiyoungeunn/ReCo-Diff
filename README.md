@@ -19,21 +19,21 @@ pip install -r ./requirements.txt
 
 ### 🔧 Install torch-radon
 
-1️⃣ Download torch-radon  
+1️. Download torch-radon  
 👉 https://github.com/matteo-ronchetti/torch-radon
 
 ```shell
 git clone https://github.com/matteo-ronchetti/torch-radon.git
 ```
 
-2️⃣ Apply patch (due to outdated PyTorch functions)
+2️. Apply patch (due to outdated PyTorch functions)
 
 ```shell
 cd torch-radon
 patch -p1 < path/to/ReCo-Diff/torch-radon_fix/torch-radon_fix.patch
 ```
 
-3️⃣ Install
+3️. Install
 
 ```shell
 python setup.py install
