@@ -53,6 +53,14 @@ python ./datasets/preprocess_aapm.py
 
 Download a [checkpoint](https://drive.google.com/drive/folders/17G5z6vLXAuA5GYvGJTbSP1kEAVBPt6mh?usp=sharing) and use it for testing.
 
+### 📂 Checkpoint file
+
+```
+ReCo-Diff ckpt/
+├── ReCo-Diff-net-colddiff_179_epoch.pkl
+└── ReCo-Diff-net-colddiff_ema_179_epoch.pkl  
+```
+
 ---
 
 ## 🚀 Train (ReCo-Diff)
