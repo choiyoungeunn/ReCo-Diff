@@ -90,20 +90,9 @@ bash recodiff_train.sh
 
 ## 🧪 Test 
 
-### Single checkpoint
-
 - Script: `recodiff_test.sh`
 - Set `res_dir`, `dataset_path`, and `net_checkpath_default` at the top of the file, then run:
 
 ```shell
 bash recodiff_test.sh
-```
-
-### All checkpoints in a directory
-
-- Script: `recodiff_test_ALL_search.sh`
-- Set `ckpt_dir` at the top of the file, then run:
-
-```shell
-bash recodiff_test_ALL_search.sh
 ```
