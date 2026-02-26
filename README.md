@@ -3,8 +3,7 @@ ReCo-Diff: Residual-Conditioned Deterministic Sampling for Cold Diffusion in Spa
 
 ## Requirements
 
-- Python 3.7
-- Clone ReCo-Diff first:
+- Create a new virtual environment and install the required libraries using \requirements.txt`.`
   ```shell
   git clone https://github.com/choiyoungeunn/ReCo-Diff.git
   cd ReCo-Diff
