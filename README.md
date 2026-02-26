@@ -38,11 +38,9 @@ pip install -r ./requirements.txt
 
 ## 📊 Dataset
 
-- Download the AAPM dataset:  
-  https://aapm.app.box.com/s/eaw4jddb53keg1bptavvvd1sf4x3pe9h/folder/144226105715
-
-- After downloading, run preprocessing:
-
+- Download the [AAPM dataset](https://aapm.app.box.com/s/eaw4jddb53keg1bptavvvd1sf4x3pe9h/folder/144226105715).
+- After downloading, run preprocessing with `./datasets/preprocess_aapm.py`.
+- Provide dataset paths directly in each script before running.
 ```shell
 python ./datasets/preprocess_aapm.py
 ```
@@ -53,9 +51,7 @@ python ./datasets/preprocess_aapm.py
 
 ## 💾 Pretrained Checkpoint
 
-Download the checkpoint from the link below and load it into the model to run the test.
-
-👉 https://drive.google.com/drive/folders/17G5z6vLXAuA5GYvGJTbSP1kEAVBPt6mh?usp=sharing
+Download a [checkpoint](https://drive.google.com/drive/folders/17G5z6vLXAuA5GYvGJTbSP1kEAVBPt6mh?usp=sharing) and use it for testing.
 
 ---
 
