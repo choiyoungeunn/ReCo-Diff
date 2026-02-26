@@ -19,7 +19,7 @@ pip install -r ./requirements.txt
 
 ### 🔧 Install torch-radon
 
-1. Download torch-radon  
+1 Download torch-radon  
 👉 https://github.com/matteo-ronchetti/torch-radon
 
 ```shell
