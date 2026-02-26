@@ -4,13 +4,23 @@ ReCo-Diff: Residual-Conditioned Deterministic Sampling for Cold Diffusion in Spa
 ## Requirements
 
 - Python 3.7
-- Install packages from `requirements.txt`.
-- torch-radon is required for simulating DRRs and geometry utils, install torch-radon by
+- Clone ReCo-Diff first:
+  ```shell
+  git clone https://github.com/choiyoungeunn/ReCo-Diff.git
+  cd ReCo-Diff
+  ```
+- Create a virtual environment and install dependencies from `requirements.txt`:
+  ```shell
+  python -m venv .venv
+  source .venv/bin/activate
+  pip install -r requirements.txt
+  ```
+- torch-radon is required for simulating DRRs and geometry utils. Install torch-radon by:
   1. Download torch-radon from [torch-radon](https://github.com/matteo-ronchetti/torch-radon)
      ```shell
      git clone https://github.com/matteo-ronchetti/torch-radon.git
      ```
-  2. Due to some out-dated Pytorch function in torch-radon, you need to modify code by running
+  2. Due to some out-dated Pytorch function in torch-radon, modify code by running
      ```shell
      cd torch-radon
      patch -p1 < path/to/ReCo-Diff/torch-radon_fix/torch-radon_fix.patch
