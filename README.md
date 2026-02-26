@@ -19,8 +19,8 @@ pip install -r ./requirements.txt
 
 ### 🔧 Install torch-radon
 
-1 Download torch-radon  
-👉 https://github.com/matteo-ronchetti/torch-radon
+- torch-radon is required for simulating DRRs and geometry utils. Install torch-radon by:
+  1. Download torch-radon from [torch-radon](https://github.com/matteo-ronchetti/torch-radon)
 
 ```shell
 git clone https://github.com/matteo-ronchetti/torch-radon.git
