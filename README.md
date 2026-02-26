@@ -69,7 +69,7 @@ ReCo-Diff ckpt/
 - Set `res_dir` and `dataset_path` at the top of the file, then run:
 
 ```shell
-./recodiff_train.sh
+bash recodiff_train.sh
 ```
 
 ---
@@ -82,7 +82,7 @@ ReCo-Diff ckpt/
 - Set `res_dir`, `dataset_path`, and `net_checkpath_default` at the top of the file, then run:
 
 ```shell
-./recodiff_test.sh
+bash recodiff_test.sh
 ```
 
 ### 🔹 All checkpoints in a directory
@@ -91,5 +91,5 @@ ReCo-Diff ckpt/
 - Set `ckpt_dir` at the top of the file, then run:
 
 ```shell
-./recodiff_test_ALL_search.sh
+bash recodiff_test_ALL_search.sh
 ```
