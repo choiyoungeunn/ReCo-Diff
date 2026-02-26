@@ -28,26 +28,26 @@ ReCo-Diff: Residual-Conditioned Deterministic Sampling for Cold Diffusion in Spa
 
 ## Train (ReCo-Diff)
 
-- Script: `train_err_cfg.sh`
+- Script: `recodiff_train.sh`
 - Set `res_dir` and `dataset_path` at the top of the file, then run:
   ```shell
-  ./train_err_cfg.sh
+  ./recodiff_train.sh
   ```
 
 ## Test (ReCo-Diff)
 
 ### Single checkpoint
 
-- Script: `test_err_cfg.sh`
+- Script: `recodiff_test.sh`
 - Set `res_dir`, `dataset_path`, and `net_checkpath_default` at the top of the file, then run:
   ```shell
-  ./test_err_cfg.sh
+  ./recodiff_test.sh
   ```
 
 ### All checkpoints in a directory
 
-- Script: `test_err_cfg_ALL_search.sh`
+- Script: `recodiff_test_ALL_search.sh`
 - Set `ckpt_dir` at the top of the file, then run:
   ```shell
-  ./test_err_cfg_ALL_search.sh
+  ./recodiff_test_ALL_search.sh
   ```
