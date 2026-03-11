@@ -1,4 +1,6 @@
 # ReCo-Diff
+[![arXiv](https://img.shields.io/badge/arXiv-2603.02691-b31b1b.svg)](https://arxiv.org/abs/2603.02691)
+
 ReCo-Diff: Residual-Conditioned Deterministic Sampling for Cold Diffusion in Sparse-View CT
 
 ---
@@ -86,8 +88,7 @@ Download a [checkpoint](https://drive.google.com/drive/folders/17G5z6vLXAuA5GYvG
 
 ```
 ReCo-Diff ckpt/
-├── ReCo-Diff-net-colddiff_179_epoch.pkl
-└── ReCo-Diff-net-colddiff_ema_179_epoch.pkl  
+└── ReCo-Diff-net-colddiff_best_epoch.pkl  
 ```
 
 ---
