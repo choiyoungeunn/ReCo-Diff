@@ -96,7 +96,7 @@ class ColdDiffusion(DiffusionSparseWrapper):
     
     # Semantic-Prioritized Dual-Phase Sampling (SPDPS)
     @torch.no_grad()
-    def iterative_sample(self, x_deg, t_start, iterative_budget, refine_budget=2):
+    def iterative_sample(self, x_deg, t_start, iterative_budget=2, refine_budget=2):
         self.denoise_fn.eval()
         x_deg_in = x_deg
 
@@ -261,7 +261,8 @@ class ColdDiffusionErrCFG(ColdDiffusion):
         return x_deg, direct_recon
 
 
-    # Sampling used in colddiff_tester.py
+    # One-Time Level Transition for Extremely Sparse Regimes.
+    # Please refer to the graph in Figure 4.
     @torch.no_grad()
     def iterative_sample_err_cfg_reset_views(
         self, x_deg, t_start, refine_budget=2, 
@@ -321,10 +322,8 @@ class ColdDiffusionErrCFG(ColdDiffusion):
         return x_deg, direct_recon
 
 
-    # One-Time Level Transition for Extremely Sparse Regimes.
     # 'print('reset SSIM')' is kept intentionally for sequence comparison with CvG-Diff.
     # Although 'iterative_sample_err_noSSIM' does not compute SSIM, this log marks the point where the process enters the Detail Refinement stage (same transition point as CvG-Diff).
-    # Please refer to the graph in Figure 4.
     @torch.no_grad()
     def iterative_sample_err_noSSIM(self, x_deg, t_start, iterative_budget=2, refine_budget=5):
         self.denoise_fn.eval()
