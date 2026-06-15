@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-epochs=20  # Number of epochs
+epochs=200  # Number of epochs
 dataset_shape=256  # CT image size (squared)
 res_dir="/path/to/your/ReCo-Diff/logs"  # enter your directory for storing result
 dataset_path='/path/to/your/preprocess_data/aapm16/train_img' # enter your dataset path of train images
